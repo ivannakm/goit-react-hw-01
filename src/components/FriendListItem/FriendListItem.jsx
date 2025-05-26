@@ -1,3 +1,5 @@
+import "../../css/FriendListItem.module.css";
+
 const FriendListItem = ({ avatar, name, isOnline }) => {
   const statusText = isOnline ? "Online" : "Offline";
   const statusClass = isOnline ? "status online" : "status offline";
