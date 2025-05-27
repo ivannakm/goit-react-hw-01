@@ -1,0 +1,75 @@
+.profile {
+  max-width: 320px;
+  margin: 40px auto; /* Centers the card */
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.profileDescr {
+  padding: 30px 20px;
+}
+
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+  margin: 0 auto 20px auto;
+  background-color: gray;
+}
+
+.profileName {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.profileTag {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.profileLocation {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 209, 209);
+  border-top: 2px solid #010101;
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  border-left: 1px solid #000000;
+}
+
+.stats li:first-child {
+  border-left: none;
+}
+
+.statsLabel {
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.statsQuantity {
+  font-weight: 600;
+  font-size: 16px;
+}

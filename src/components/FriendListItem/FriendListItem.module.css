@@ -1,0 +1,33 @@
+.friend-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: 160px;
+  min-height: 200px;
+}
+
+.list-name {
+  font-size: 30px;
+  text-align: center;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
